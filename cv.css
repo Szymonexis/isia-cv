@@ -1,0 +1,233 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 210mm;
+	height: 296mm;
+	font-family: 'Roboto';
+}
+
+h1,
+h2,
+h3 {
+	padding: 0;
+	margin: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+.main {
+	padding: 5%;
+	position: relative;
+}
+
+/* info */
+.info {
+	padding-bottom: 1rem;
+	display: flex;
+}
+
+.info-left {
+	flex: 1 1 auto;
+}
+~
+.info-right {
+}
+
+.info-photo {
+	display: block;
+	max-height: 15rem;
+	width: auto;
+	height: auto;
+	border-radius: 1rem;
+}
+
+.info-title {
+	padding-bottom: 0.5rem;
+	background: rgb(0, 13, 255);
+	background: linear-gradient(
+		to right,
+		rgb(0, 13, 255) 0%,
+		rgb(231, 0, 255) 25%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.info-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 0 1rem;
+}
+
+.info-container {
+	padding-bottom: 0.5rem;
+}
+
+.info-name {
+	font-size: large;
+	font-weight: 800;
+}
+
+.info-desc {
+	font-style: italic;
+}
+
+/* job */
+.job {
+	padding-bottom: 1rem;
+}
+
+.job-title {
+	padding: 6px;
+	border-radius: 6px;
+	border-bottom: 2px solid;
+	border-color: rgb(0, 13, 255);
+	background: rgba(0, 13, 255, 0.2);
+	background: linear-gradient(
+		105deg,
+		rgba(0, 13, 255, 0.2) 0%,
+		rgba(231, 0, 255, 0.2) 75%
+	);
+}
+
+.job-content {
+}
+
+.job-container {
+	padding: 0.5rem;
+}
+
+.job-name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.job-position {
+	font-style: italic;
+}
+
+.job-date {
+}
+
+/* edu */
+.edu {
+	padding-bottom: 1rem;
+}
+
+.edu-title {
+	padding: 6px;
+	border-radius: 6px;
+	border-bottom: 2px solid;
+	border-color: rgb(0, 13, 255);
+	background: rgba(0, 13, 255, 0.2);
+	background: linear-gradient(
+		105deg,
+		rgba(0, 13, 255, 0.2) 0%,
+		rgba(231, 0, 255, 0.2) 75%
+	);
+}
+
+.edu-content {
+}
+
+.edu-container {
+	padding: 0.5rem;
+}
+
+.edu-name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.edu-desc {
+	font-style: italic;
+}
+
+.edu-date {
+}
+
+/* skills */
+.skills {
+	padding-bottom: 1rem;
+}
+
+.skills-title {
+	padding: 6px;
+	border-radius: 6px;
+	border-bottom: 2px solid;
+	border-color: rgb(0, 13, 255);
+	background: rgba(0, 13, 255, 0.2);
+	background: linear-gradient(
+		105deg,
+		rgba(0, 13, 255, 0.2) 0%,
+		rgba(231, 0, 255, 0.2) 75%
+	);
+}
+
+.skills-content {
+	padding: 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.skills-container {
+	padding: 0 1rem;
+}
+
+.skills-name {
+	display: list-item;
+}
+
+/* hobby */
+.hobby {
+	padding-bottom: 1rem;
+}
+
+.hobby-title {
+	padding: 6px;
+	border-radius: 6px;
+	border-bottom: 2px solid;
+	border-color: rgb(0, 13, 255);
+	background: rgba(0, 13, 255, 0.2);
+	background: linear-gradient(
+		105deg,
+		rgba(0, 13, 255, 0.2) 0%,
+		rgba(231, 0, 255, 0.2) 75%
+	);
+}
+
+.hobby-content {
+	padding: 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.hobby-container {
+	padding: 0 1rem;
+}
+
+.hobby-name {
+	display: list-item;
+}
+
+/* footer */
+.footer {
+	position: absolute;
+	bottom: -1.5rem;
+	width: calc(210mm - 4rem);
+	font-size: x-small;
+}
